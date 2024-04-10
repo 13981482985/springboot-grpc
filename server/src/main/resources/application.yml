@@ -1,0 +1,11 @@
+# 核心配置 就是gRPC服务的端口号
+spring:
+  application:
+    name: springboot-grpc-server
+#  main:
+#    web-application-type: none
+grpc:
+  server:
+    port: 9000
+server:
+  port: 8081
